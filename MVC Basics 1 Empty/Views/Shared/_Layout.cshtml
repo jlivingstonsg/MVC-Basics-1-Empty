@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    @Html.ActionLink("Hem", "Index", "Home")
+    @Html.ActionLink("Test", "Test", "Home")
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
